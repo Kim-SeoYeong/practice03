@@ -8,7 +8,11 @@ public class Ex09 {
 			System.out.println("");
 			for(int j=1+i; j<=10+i; j++) {
 				System.out.print(j);
-				System.out.print("   ");
+				if (j>=10) {
+					System.out.print("    ");
+				} else { 
+					System.out.print("     ");
+				}
 			}
 		}
 	}
