@@ -6,9 +6,12 @@ public class Ex20 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int random = 55;
+		int random = (int)(Math.random()*100)+1;
 		
 		Scanner sc = new Scanner(System.in);
+		System.out.println("===========================");
+		System.out.println("   [숫자맞추기게임 시작]   ");
+		System.out.println("===========================");
 		
 		while(true) {
 			System.out.print(">> ");
